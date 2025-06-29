@@ -1,0 +1,31 @@
+body {
+    background-color: #E2E2B6;
+}
+
+h1, h2, h3, h4 {
+    color: #021526; /* Deep navy for headings */
+}
+
+.stButton > button {
+    background-color: #6EACDA; /* Light blue */
+    color: #021526; /* Dark text for contrast */
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #03346E; /* Mid blue on hover */
+    color: white;
+}
+
+a {
+    color: #03346E;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
